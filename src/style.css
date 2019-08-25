@@ -1,1 +1,131 @@
 /* Acá va tu código */
+*{
+    margin: 0;
+    padding: 0; 
+ }
+ 
+ h1 {
+     font-size: 20px;
+     font-family: sans-serif;
+     font-weight: bold;
+     text-align: left  
+ }
+ 
+ h2 {
+     font-size: 14px;
+     font-family: sans-serif;
+     font-weight: bold; 
+ }
+ header, section, footer, aside, nav, article,hgroup {
+     display: block
+ }
+ 
+ body {
+     text-align: center;
+     background:url(images/fondo.jpg);
+     font-family: sans-serif;
+     
+ }
+ 
+ .agrupar {
+     width: 960px;
+     background:#ecf0f1;
+     margin: 30px auto; 
+     padding: 70px; 
+    
+   }
+ 
+   .cabecera{ 
+       background: #c59ad1;
+       border: 1px solid #8f44a5;
+       padding: 20px;
+   }
+   .cabecera h1 {
+       text-align: left;
+       color: #90257a;
+   }
+ 
+   .cabecera h2 {
+     text-align: left;
+ }
+ 
+   .menu {
+        background: #c0d6ef;
+        padding: 5px 15px;
+        text-align: left;
+        border: 1px solid #8f44a5;
+   }
+   .menu li {
+       list-style: none;
+       padding: 5px;
+       font: bold 14px sans-serif;
+       display: inline-block;
+ }
+ .seccion{
+     margin: 20px;
+     width: 600px;
+     float: left;
+ }
+ article {
+     background: #c0d6ef;
+     border: 1px solid #8f44a5;
+     padding: 20px;
+     margin-bottom: 15px;
+     border-radius: 10px 10px 10px 10px
+ }
+ 
+ time{
+     color:  #8f44a5;
+ }
+ 
+ 
+ article footer {
+     text-align: right;
+     margin-top: 20px;
+ }
+ 
+ .columnas{
+     width: 300px;
+     float:left;
+     margin:20px 0;
+     background: #c59ad1
+ }
+ 
+ .columnas blockquote{
+     border: 1px solid  #8f44a5;
+     padding: 20px;
+     background: #c59ad1;
+     margin-bottom: 20px;
+      
+ }
+  .pie {
+     clear:both;
+     padding: 20px;
+     background:  #8f44a5;
+     color:white;
+  }
+ 
+ img {
+    width: 200px;
+    margin-left: 700px;
+
+ }
+
+ button{
+    background: linear-gradient(50deg,#c178ba,#7d0576);
+    color: #ffffff;
+    padding: 20px;
+    margin: 20px;
+    border:2px;
+    border-color: #287753;
+    border-radius:5px;
+    transition:all300ms;
+    text-transform: uppercase
+}
+
+button:hover{
+    transform: translatey(5px);
+    box-shadow: 0px, 30px, 5px, -15px rgba(0,0,0,0.3);
+    
+    
+  }

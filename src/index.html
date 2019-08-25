@@ -2,12 +2,97 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <meta name ="keywords" content="mujeres, abuso, agrecion, viloacion">
     <title>Caesar Cipher</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <div id="root">
-      <h1>Hola mundo!</h1>
+    <div class="agrupar">
+        <h1>Woman for Woman</h1>
+   <img src="images/logo.png" />
+    <header class="cabecera"><h2>La app web que esta diseñada por y para nosotras</h2>
+    </header>
+  <nav class="menu">
+         <ul>
+             <li>Principal</li>
+             <li>S.O.S</li>
+             <li>Contacto</li>
+ 
+         </ul>
+ </nav>
+      <section class="seccion">
+         <article>
+                 <hgroup>                
+                     <h1>La violencia contra la mujer constituye un grave problema de salud pública</h1>
+                     <h2>Datos y Cifras</h2>
+                 </hgroup>
+ 
+             <time datetime= "12-10-2018">Publicado 12-10-2018</time>
+             <p>Las estimaciones mundiales publicadas por la OMS indican 
+             que alrededor de una de cada tres (35%) mujeres en el mundo 
+             han sufrido <strong>violencia</strong> física y/o sexual de pareja o violencia 
+             sexual por terceros en algún momento de su vida.</p>
+            <footer>
+                 <p>Comentarios (0)</p>
+             </footer>
+             <address>
+                 <a href="https://www.who.int">Visita el sitio web</a>
+             </address>
+             
+         </article>
+         
+         <article>
+                 <hgroup>
+                     <h1>Violencia Sexual</h1>
+                     <h2>Factores de riesgos</h2>
+                 </hgroup>
+             
+             <time datetime= "13-11-2018">Publicado 13-11-2018</time>
+             <p>Los factores de riesgo de violencia de pareja y violencia 
+             sexual son de carácter individual, familiar, comunitario y social.
+             Algunos se asocian a la comisión de actos de violencia, otros a su 
+             padecimiento, y otros a ambos. Entre los factores de riesgo de ambas, 
+             violencia de pareja y violencia sexual</p>
+             <footer>
+                 <p>Comentarios (10)</p>
+             </footer>
+ 
+ 
+         </article>
+     </section>
+     <aside class="columnas">
+         <blockquote cite= "https://laguiafemenina.com">
+             Mi cuerpo no quiere tu opinión.
+            </blockquote>
+         <blockquote cite= "https://laguiafemenina.com"> 
+             No estás sola, denuncia ¡somos libres!
+         </blockquote>
+         
+        </aside>
+ 
+         <section>
+ 
+                 <textarea name="box1" placeholder = "Mensaje S.O.S"  id="mensaje" cols="35" rows="8"></textarea>
+                 <textarea name="box2" placeholder = "Mensaje oculto"  id="mensaje2" cols="35" rows="8"></textarea>   
+                 <input type="number"  placeholder= "numero de seguridad"  id="offset">
+                 <p id="respuestaCifrado"></p>
+                 <p id="respuestaDescifrado"></p>
+         </section>
+         
+         <section>
+                 
+             <button id="cifrar">cifrar</button>
+             <button id="descifrar">descifrar</button>
+         </section>
+     
+     <footer class="pie">
+         Derechos reservados 2011-2019
+     </footer>
+ 
+</div>
+    
+
     </div>
     <script src="cipher.js"></script>
     <script src="index.js"></script>
