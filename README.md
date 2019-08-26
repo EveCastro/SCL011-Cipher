@@ -21,7 +21,7 @@ Con esta app web que nos permite conectarnos con instituciones especializadas, q
 ## Instrucciones
 
 Acceder a la navegación es sencilla, solo debes tener acceso a internet y registrarte solo con tu correo, no enviaremos ningún tipo de información, tu usuario se activara cuando envíes tu mensaje, este mensaje también es solo si deseas unirte a la comunidad y ser participe activa de esta, cualquiera sea tu mensaje, siempre nos pondremos en contacto contigo, recuerda que este será enviado a la institución  adecuada una vez analizado, no te sientas insegura, todos los mensajes están cifrados para mantener tu privacidad. Hemos diseñado esta web app para nosotras, por lo tanto tiene el color que representa en feminismo y en la lucha que todas estamos involucradas.
-
+https://trello.com/b/PnCchbzs/cifrado-woman
 
 
 
